@@ -94,6 +94,13 @@
         <cylinder radius='0.1' length='0.05'/>
       </geometry>
     </visual>
+
+    <visual name="right_rin_visual">
+      <origin xyz='0 -0.025 0' rpy='0 1.5707 1.5707'/>
+      <geometry>
+        <cylinder radius='0.03' length='0.05'/>
+      </geometry>
+    </visual>
   </link>
 
   <link name="left_wheel">
@@ -118,6 +125,13 @@
       <origin xyz='0 0 0' rpy='0 1.5707 1.5707'/>
       <geometry>
         <cylinder radius='0.1' length='0.05'/>
+      </geometry>
+    </visual>
+
+    <visual name="left_rin_visual">
+      <origin xyz='0 0.025 0' rpy='0 1.5707 1.5707'/>
+      <geometry>
+        <cylinder radius='0.03' length='0.05'/>
       </geometry>
     </visual>
   </link>
