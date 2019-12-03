@@ -1,10 +1,13 @@
 # my-robot
 
-This is a simple robot to be used in Gazebo. Built using urdf.
+This is a simple robot to be used in Gazebo. Built using the urdf format.
 
-It has wheels with joints and two sensors.
+It has two wheels with joints and two sensors.
 
-It is my first ROS package.
+* Camera
+* Lidar
+
+When launching it will also display RViz to see what the sensors are reading.
 
 ## Usage
 
@@ -14,4 +17,4 @@ It is my first ROS package.
 
 `roslaunch my_robot world.launch`
 
-![](ref_images/robotModel.png)
+![](ref_images/green_robot.png)
