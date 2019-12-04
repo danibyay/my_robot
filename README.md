@@ -17,4 +17,9 @@ When launching it will also display RViz to see what the sensors are reading.
 
 `roslaunch my_robot world.launch`
 
+### Localisation
+
+`roslaunch my_robot amcl.launch`
+
+
 ![](ref_images/green_robot.png)
