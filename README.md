@@ -70,3 +70,7 @@ Type this command in a separate console.
 Use the commands of teleop shown in the console to move the robot around, and watch in RViz how the arrows are pointing to where amcl thinks the robot is.
 
 ![](ref_images/greenArrow.png)
+
+### Mapping
+
+A 3d and 2d Map database was generated and is available on the following [link](https://drive.google.com/open?id=17e9LTf1pOaFlWJcLHDnNRBaxhiwc3kOz) due to size restrictions.
