@@ -70,7 +70,21 @@ Type this command in a separate console.
 Use the commands of teleop shown in the console to move the robot around, and watch in RViz how the arrows are pointing to where amcl thinks the robot is.
 
 ![](ref_images/greenArrow.png)
+![](ref_images/amcl_rqt_graph.png)
 
 ### Mapping
 
-A 3d and 2d Map database was generated and is available on the following [link](https://drive.google.com/open?id=17e9LTf1pOaFlWJcLHDnNRBaxhiwc3kOz) due to size restrictions.
+With the ROS package rtabmap_ros, by running:
+
+`roslaunch my_robot mapping.launch`
+
+You can manually navigate the robot with teleop around the world and a map will be generated and saved into my_robot/maps/*rtabmap.db*.
+
+This is done thanks to the SLAM algorithm implemented with the laser sensor and the RGB-D camera.
+
+An example of a 3d and 2d Map database was generated and is available on the following [link](https://drive.google.com/open?id=17e9LTf1pOaFlWJcLHDnNRBaxhiwc3kOz) due to size restrictions.
+
+*Map results*
+
+![](ref_images/database_2d.png)
+![](ref_images/database_3d.png)
