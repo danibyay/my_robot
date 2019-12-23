@@ -84,6 +84,10 @@ This is done thanks to the SLAM algorithm implemented with the laser sensor and 
 
 An example of a 3d and 2d Map database was generated and is available on the following [link](https://drive.google.com/open?id=17e9LTf1pOaFlWJcLHDnNRBaxhiwc3kOz) due to size restrictions.
 
+Open the map with
+
+`rtabmap-databaseViewer <path to my_robot>/maps/rtabmap.db`
+
 *Map results*
 
 ![](ref_images/database_2d.png)
